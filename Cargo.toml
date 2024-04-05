@@ -1,0 +1,14 @@
+[package]
+name = "tracing-indicatif-playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+indicatif = "0.17.8"
+rand = "0.8.5"
+rayon = "1.10.0"
+tracing = "0.1.40"
+tracing-indicatif = "0.3.6"
+tracing-subscriber = "0.3.18"
